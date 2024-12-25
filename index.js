@@ -14,7 +14,7 @@ app.use(
    origin: [
       "http://localhost:5173",
       "https://steimatzky-frontend-tl7v.vercel.app",
-      "https://steimatzky.netlify.app/",
+      "https://steimatzky.netlify.app",
     ],
     credentials: true,
   })
