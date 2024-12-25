@@ -11,9 +11,10 @@ require("dotenv").config();
 app.use(express.json());
 app.use(
   cors({
-    origin: [
+   origin: [
       "http://localhost:5173",
       "https://steimatzky-frontend-tl7v.vercel.app",
+      "https://steimatzky.netlify.app/",
     ],
     credentials: true,
   })
